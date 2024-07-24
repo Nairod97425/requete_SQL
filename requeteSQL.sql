@@ -1,7 +1,10 @@
 -- 1 Nom et année de naissance des artistes nés avant 1950.
+-- Affichage des lignes 0 - 24 (total de 540, traitement en 0,0003 seconde(s).)
+
 SELECT nom, annéeNaiss 
 FROM artiste 
 WHERE annéeNaiss < 1950;
+
 -- nom	annéeNaiss	
 -- Lucas	1944	
 -- Ford	1942	
@@ -28,7 +31,7 @@ WHERE annéeNaiss < 1950;
 -- Rain	1928	
 -- Plummer	1929	
 -- Glenn	1941	
--- Total 540
+
 
 -- 2 Titre de tous les drames.
 --    Affichage des lignes 0 - 24 (total de 83, traitement en 0,0030 seconde(s).)
